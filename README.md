@@ -116,11 +116,19 @@ In a world of endless notifications and scattered tools, TaskFlow brings everyth
 
 ```bash
 # Clone repository
+<<<<<<< Updated upstream
 git clone https://github.com/YOUR_USERNAME/task-management.git
+=======
+git clone https://github.com/bundlab/task-management.git
+>>>>>>> Stashed changes
 cd task-management
 
 # Start all services
 docker-compose up -d
 
 # Run database migrations
+<<<<<<< Updated upstream
 docker-compose exec backend npm run prisma:migrate
+=======
+docker-compose exec backend npm run prisma:migrate
+>>>>>>> Stashed changes

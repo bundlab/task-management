@@ -21,7 +21,6 @@ gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
-gem "bootsnap", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -44,3 +43,8 @@ group :development, :test do
 end
 
 
+gem "net-smtp", require: false
+gem "net-smtp"
+
+gem "net-imap", "~> 0.6.4"
+gem "net-pop", "~> 0.1.2"
