@@ -132,3 +132,33 @@ docker-compose exec backend npm run prisma:migrate
 =======
 docker-compose exec backend npm run prisma:migrate
 >>>>>>> Stashed changes
+```
+## Contributing
+
+Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project, including coding standards, pull request process, and development setup.
+
+## Roadmap
+
+- [x] User authentication (Devise + JWT)
+- [x] Multi-tenant Organizations (Workspaces)
+- [x] Boards, Lists, and Cards
+- [ ] Comments on cards
+- [ ] Labels and tags
+- [ ] Checklists & subtasks
+- [ ] File attachments
+- [ ] Real-time updates (Action Cable)
+- [ ] Notifications
+- [ ] Search & filtering
+- [ ] Authorization with Pundit
+- [ ] Activity logging
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact / Support
+
+For questions, suggestions, or support:
+
+- Open an [Issue](https://github.com/bundlab/task_management/issues)
+- Contact the maintainer via GitHub
